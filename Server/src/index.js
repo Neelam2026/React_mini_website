@@ -15,8 +15,6 @@ const connect=()=>{
 const Home_controller=require("./controllers/home.controller")
 app.use("/", Home_controller)
 
-
-
 const port=process.env.PORT||8080
 app.listen(port,async()=>{
     try{

@@ -8,7 +8,7 @@ app.use(express.json())
 
 const mongoose=require("mongoose")
 const connect=()=>{
-    return mongoose.connect("mongodb+srv://Neelam0101:Neelam12345@cluster0.yca2t.mongodb.net/beardo")
+    return mongoose.connect("mongodb+srv://Neelam0101:Neelam12345@cluster0.yca2t.mongodb.net/car")
 }
 
 

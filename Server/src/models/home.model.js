@@ -1,9 +1,10 @@
 const mongoose=require("mongoose")
 const homeSchema=new mongoose.Schema(
 {
-    img_url: { type: String, required: true },
-    title: { type: String, required: true},
-    price: { type: Number, required: true },
+    car_make: { type: String },
+    car_model: { type: String},
+    model_year: { type: String },
+    color: { type: String },
    
    
 },
